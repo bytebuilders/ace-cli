@@ -17,7 +17,7 @@ limitations under the License.
 package main
 
 import (
-	"go.bytebuilders.dev/ace/pkg/cmds"
+	"go.bytebuilders.dev/cli/pkg/cmds"
 	_ "go.bytebuilders.dev/license-verifier/info"
 
 	"gomodules.xyz/logs"

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"go.bytebuilders.dev/ace/pkg/config"
-	"go.bytebuilders.dev/ace/pkg/printer"
+	"go.bytebuilders.dev/cli/pkg/config"
+	"go.bytebuilders.dev/cli/pkg/printer"
 	ace "go.bytebuilders.dev/client"
 	clustermodel "go.bytebuilders.dev/resource-model/apis/cluster"
 

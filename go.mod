@@ -1,27 +1,27 @@
-module go.bytebuilders.dev/ace
+module go.bytebuilders.dev/cli
 
-go 1.22.1
+go 1.22.7
 
-toolchain go1.22.4
+toolchain go1.23.5
 
 require (
 	github.com/fatih/color v1.16.0
 	github.com/minio/minio-go/v7 v7.0.78
-	github.com/nats-io/nats.go v1.37.0
+	github.com/nats-io/nats.go v1.38.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.6.0
 	github.com/spf13/cobra v1.8.1
-	go.bytebuilders.dev/client v0.0.5-0.20241016221800-418b6e9b556d
-	go.bytebuilders.dev/license-verifier v0.14.3
-	go.bytebuilders.dev/resource-model v0.1.0
+	go.bytebuilders.dev/client v0.0.5-0.20241228025156-8820d780d3f2
+	go.bytebuilders.dev/license-verifier v0.14.6
+	go.bytebuilders.dev/resource-model v0.1.1-0.20250113073009-6169434829cb
 	gocloud.dev v0.36.0
 	gomodules.xyz/blobfs v0.1.14
 	gomodules.xyz/logs v0.0.7
 	gomodules.xyz/x v0.0.17
 	k8s.io/client-go v0.30.2
 	k8s.io/klog/v2 v2.130.1
-	kmodules.xyz/resource-metadata v0.20.1-0.20241018204417-8452f7858fab
-	kubeops.dev/installer v0.0.0-20241016163249-9776dfd411b4
+	kmodules.xyz/resource-metadata v0.24.2
+	kubeops.dev/installer v0.0.0-20250117114732-a5db346acc00
 	sigs.k8s.io/yaml v1.4.0
 )
 
@@ -67,8 +67,8 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/docker/cli v24.0.9+incompatible // indirect
-	github.com/docker/distribution v2.8.2+incompatible // indirect
+	github.com/docker/cli v26.1.3+incompatible // indirect
+	github.com/docker/distribution v2.8.3+incompatible // indirect
 	github.com/docker/docker v25.0.6+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
@@ -118,10 +118,10 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/nats-io/nkeys v0.4.7 // indirect
+	github.com/nats-io/nkeys v0.4.9 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0-rc3 // indirect
+	github.com/opencontainers/image-spec v1.1.0-rc6 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/prometheus/client_golang v1.18.0 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
@@ -142,14 +142,14 @@ require (
 	go.opentelemetry.io/otel v1.24.0 // indirect
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
-	golang.org/x/crypto v0.28.0 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
-	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.26.0 // indirect
-	golang.org/x/term v0.25.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/term v0.27.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	gomodules.xyz/clock v0.0.0-20200817085942-06523dba733f // indirect
@@ -172,10 +172,10 @@ require (
 	k8s.io/apimachinery v0.30.2 // indirect
 	k8s.io/kube-openapi v0.0.0-20240703190633-0aa61b46e8c2 // indirect
 	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0 // indirect
-	kmodules.xyz/client-go v0.30.30 // indirect
+	kmodules.xyz/client-go v0.30.44 // indirect
 	kmodules.xyz/go-containerregistry v0.0.12 // indirect
 	kmodules.xyz/offshoot-api v0.30.1 // indirect
-	kmodules.xyz/resource-metrics v0.30.4 // indirect
+	kmodules.xyz/resource-metrics v0.30.5 // indirect
 	sigs.k8s.io/controller-runtime v0.18.4 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect

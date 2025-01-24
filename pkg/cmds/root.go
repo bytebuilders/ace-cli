@@ -21,12 +21,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go.bytebuilders.dev/ace/pkg/cmds/auth"
-	"go.bytebuilders.dev/ace/pkg/cmds/cloud_swap"
-	"go.bytebuilders.dev/ace/pkg/cmds/cluster"
-	cmdconfig "go.bytebuilders.dev/ace/pkg/cmds/config"
-	"go.bytebuilders.dev/ace/pkg/cmds/installer"
-	"go.bytebuilders.dev/ace/pkg/config"
+	"go.bytebuilders.dev/cli/pkg/cmds/auth"
+	"go.bytebuilders.dev/cli/pkg/cmds/cloud_swap"
+	"go.bytebuilders.dev/cli/pkg/cmds/cluster"
+	cmdconfig "go.bytebuilders.dev/cli/pkg/cmds/config"
+	"go.bytebuilders.dev/cli/pkg/cmds/installer"
+	"go.bytebuilders.dev/cli/pkg/config"
 	ace "go.bytebuilders.dev/client"
 
 	"github.com/spf13/cobra"
